@@ -131,5 +131,5 @@ margin-right: 0px;}
 .playlist {
   opacity: 0; 
   transition: opacity 2s ease-in-out; 
-  display: block; 
+  display: grid; 
 }
