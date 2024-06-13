@@ -23,7 +23,7 @@
           
           // Включаем видимость плейлиста
           var showPlaylist = function() {
-            playlist.style.display = 'grid';
+            playlist.style.display = 'block';
             // Даем немного времени, чтобы CSS заметил изменение display
             setTimeout(function() {
               playlist.style.opacity = 1;
@@ -35,7 +35,7 @@
             playlist.style.opacity = 0;
             // Ждем завершения анимации и после этого скрываем элемент
             setTimeout(function() {
-              playlist.style.display = 'grid';
+              playlist.style.display = 'block';
             }, 1000); // Задержка равна длительности анимации
           };
       
