@@ -133,4 +133,4 @@ margin-right: 0px;}
   transition: opacity 2s ease-in-out; 
   display: grid; 
 }
-.menu { position: fixed; left: 0px; bottom: 45px; width: 90%;}
+.menu { position: fixed; bottom: 45px; width: 90%;}
