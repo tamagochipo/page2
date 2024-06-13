@@ -131,6 +131,6 @@ margin-right: 0px;}
 .playlist {
   opacity: 0; 
   transition: opacity 2s ease-in-out; 
-  display: grid; 
+  display: block; 
 }
 .menu { position: fixed;  bottom: 4.84%;  right: 5.12%; left: 5.12%;}
